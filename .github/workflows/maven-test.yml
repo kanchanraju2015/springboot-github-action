@@ -37,7 +37,7 @@ jobs:
     - name: Upload Jar file
       uses: actions/upload- artifact@v4
       with: 
-            name: my-java-app
+            name: kanchnaction1
             path: target/*.jar
                 
       
