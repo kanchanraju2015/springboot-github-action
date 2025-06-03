@@ -20,5 +20,12 @@ public String action()
 	public String git()
 	{
 		return "this is git action test";
-              }
+	}
+	@RequestMapping("/hello")
+	public String hello()
+	{
+		return "this is hello test for git action";
 }
+}
+
+
