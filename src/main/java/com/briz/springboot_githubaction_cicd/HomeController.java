@@ -16,4 +16,8 @@ public String action()
 {
 	return "GitAction Test";
 }
+@RequestMapping("/git")
+	public String git()
+	{
+		return "this is git action test";
 }
